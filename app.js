@@ -83,7 +83,7 @@ for (b= 50 ; b>=0 ; b--){
 document.write("<h1> Even Numbers </h1>");
 for(var i = 0 ; i <= 100; i++){
     if(i % 2 === 0){
-        document.write(i + " " + " ");
+        document.write(i+ " " + ", " + " ");
     }
 }
 
@@ -92,7 +92,7 @@ for(var i = 0 ; i <= 100; i++){
 document.write("<h1> ODD Numbers </h1>");
 for(var i = 0 ; i <= 100; i++){
     if(i % 2 === 1){
-        document.write(i + " " + " ");
+        document.write(i+ " " + ", " + " " );
     }
 }
 
