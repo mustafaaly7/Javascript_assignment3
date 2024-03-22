@@ -62,6 +62,44 @@
 
 // ------> Q6
 
+// -----> Q6 (a)
+
+document.write("<h1> Counting </h1>");
+
+var a;
+for (a=0; a<=50 ; a++){
+    document.write(  a + ",");
+}
+
+
+document.write("<h1> Reverse Counting </h1>");
+
+var b;
+for (b= 50 ; b>=0 ; b--){
+    document.write(  b + ",");
+
+}
+
+document.write("<h1> Even Numbers </h1>");
+for(var i = 0 ; i <= 100; i++){
+    if(i % 2 === 0){
+        document.write(i + " " + " ");
+    }
+}
+
+
+
+document.write("<h1> ODD Numbers </h1>");
+for(var i = 0 ; i <= 100; i++){
+    if(i % 2 === 1){
+        document.write(i + " " + " ");
+    }
+}
+
+
+
+
+
 
 
 
